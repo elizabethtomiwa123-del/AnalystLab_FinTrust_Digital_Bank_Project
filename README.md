@@ -56,8 +56,5 @@ The goal of this analytical project is to provide actionable insights into custo
 * 📜 SQL Analysis: [/Task 2/FinTrust_Week 2_SQL_Analysis.sql](./Task%202/FinTrust_Week%202_SQL_Analysis.sql)
 * 📓 Python Notebook: [/Task 2/FinTrust_Week 2_Data_Analysis.ipynb](./Task%202/FinTrust_Week%202_Data_Analysis.ipynb)
 * 📈 Power BI Dashboard: [/Task 2/FinTrust_Week 2_Analytics_Dashboard.pbix](./Task%202/FinTrust_Week%202_Analytics_Dashboard.pbix)
-## 🛠️ Data Analysis Process
 
-The analysis followed a structured, end-to-end data analytics workflow designed to turn raw transactional data into actionable business intelligence:
 
-#
