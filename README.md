@@ -59,3 +59,55 @@ The analysis followed a structured, end-to-end data analytics workflow designed 
 ### 3. Security & Risk Management
 * Insight: Fraud patterns show higher concentrations on specific mobile platforms and high-value transfers exceeding standard thresholds.
 * Action: Implement dynamic, step-up authentication (biometrics/OTP triggers) for high-value transactions originating from elevated-risk device profiles.
+
+
+
+
+
+# 🏦 FinTrust Digital Bank Project — Analyst Lab Internship
+
+---
+
+## 📌 Week 1
+
+### 🛠️ Data Analysis Process
+* Problem Framing & Scope Definition: Analyzed FinTrust's core operational objectives, focusing on key performance metrics across digital banking channels.
+* KPI Planning: Mapped out strategic indicators including transaction success rates, customer activity profiles, and revenue distribution channels.
+* Data Inspection: Conducted preliminary evaluation of raw transactional records to identify data structures and field definitions.
+* Requirements Mapping: Established technical specifications for downstream data cleaning, relational schema design, and analytical workflows.
+
+### 📁 Week 1 Deliverables & Files
+* 📄 Week 1 Project Report: [/Task 1/Tomiwa_Elizabeth_AnalystLab_Week 1 _Project.docx](./Task%201/Tomiwa_Elizabeth_AnalystLab_Week%201%20_Project.docx)
+
+---
+
+## 📌 Week 2
+
+### 🛠️ Data Analysis Process
+1. Data Preparation & Quality Assessment (Excel):
+   * Initial Data Audit: Evaluated raw datasets in Microsoft Excel to audit total record counts, row/column dimensions, and overall structure.
+   * Data Cleaning & Validation: Identified missing values, duplicate entries, and inconsistent data formatting to establish baseline data integrity.
+
+2. Data Modeling & SQL Querying:
+   * Relational Structuring: Imported and structured datasets into MySQL Workbench for efficient analytical querying.
+   * Business Inquiry & SQL Analysis: Executed structured SQL queries using aggregate functions, GROUP BY, CTEs, and JOIN statements to answer operational business questions.
+   * Regional & Financial Profiling: Evaluated regional sales performance, transaction failure patterns, and cost distributions.
+
+3. Exploratory Data Analysis & Feature Engineering (Python & DAX):
+   * Statistical Profiling & EDA: Conducted exploratory analysis using Python (pandas, numpy, matplotlib, seaborn) to uncover statistical patterns, distributions, and transactional anomalies.
+   * Custom DAX Measures: Developed dynamic Data Analysis Expressions (DAX) in Power BI to model financial metrics (MoM/YoY growth, retention, churn, category profitability).
+
+4. Dashboard Visualization & Storytelling:
+   * Interactive Power BI Dashboard: Built an intuitive, multi-page visual report with interactive filters, category drill-downs, and KPI tracking.
+   * Executive Delivery: Translated complex analytical findings into concise, data-backed strategic recommendations.
+
+### 💡 Business Insights & Strategic Recommendations
+* Revenue & Customer Segmentation: Everyday retail users drive consistent daily transaction volume, while commercial/SME accounts contribute a higher share of overall monetary value. Enhance mobile convenience for retail users while offering expanded limits for commercial accounts.
+* Operational Efficiency & Transaction Failures: Mobile transaction drops and pending states lead to friction and delayed revenue. Optimize payment retry logic, network routing, and third-party gateway integrations.
+* Security & Risk Management: Fraud patterns show higher concentrations on specific mobile platforms and high-value transfers. Implement dynamic step-up authentication (biometrics/OTP) for high-value transactions from elevated-risk device profiles.
+
+### 📁 Week 2 Deliverables & Files
+* 📊 Excel Cleaning: [/Task 2/Data Quality & Cleaning.xlsx](./Task%202/Data%20Quality%20%26%20Cleaning.xlsx)
+* 📜 SQL Analysis: [/Task 2/FinTrust_Week 2_SQL_Analysis.sql](./Task%202/FinTrust_Week%202_SQL_Analysis.sql)
+* 📓 Python Notebook: [/Task 2/FinTrust_Week 2_Data_Analysis.ipynb](./Task%202/FinTrust_Week%202_Data_Analysis.ipynb)
+* 📈 Power BI Dashboard: [/Task 2/FinTrust_Week 2_Analytics_Dashboard.pbix](./Task%202/FinTrust_Week%202_Analytics_Dashboard.pbix)
