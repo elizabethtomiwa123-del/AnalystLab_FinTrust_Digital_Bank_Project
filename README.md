@@ -109,3 +109,27 @@ Welcome to the repository for my Week 3 analytics project with AnalystLab! This 
 3. **Read the Documentation:** Open the `Documentation/` folder for a deep dive into the business findings and strategic recommendations.
 
 
+---
+
+1. Transaction Status Breakdown:
+   * Successful: 10,856 transactions (₦510,807,441.48)
+   * Failed: 630 transactions (₦24,825,751.10)
+   * Reversed: 326 transactions (₦13,626,118.26)
+   * Pending: 188 transactions (₦9,218,044.03)
+   * *Reconciliation Result:* 0% discrepancy across SQL queries, Python dataframes, and DAX matrix visuals.
+
+2. Distinct Active Users:
+   * Refined session log counts using COUNT(DISTINCT Customer_ID) in MySQL and DISTINCTCOUNT() in DAX, confirming exact active user distributions across January (1,393), February (1,389), and March (1,441) within the 2,000 user base.
+
+3. Peak Revenue Verification:
+   * Grouped realized revenue by date in Python (df.groupby('Transaction_Date')['Amount'].sum()) and matched against Power BI visual charts, validating the single-day peak of ₦8,645,057.98 on February 23rd.
+
+---
+
+### 📁 Week 4 Deliverables
+* Executive Report: Complete write-up covering Parts A through E.
+* Interactive Dashboard: Power BI .pbix report with integrated slicers, KPI banners, and status distribution visuals.
+* SQL Queries: MySQL script covering MAU CTEs, window functions (LAG, DENSE_RANK), and failure rate aggregations.
+* Validation Evidence: Complete multi-tool reconciliation audit matrix.
+
+
